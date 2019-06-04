@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 2019_06_03_193312) do
     t.string "name"
     t.integer "frequency"
     t.integer "count"
-    t.string "type"
+    t.string "good_or_bad"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

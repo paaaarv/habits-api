@@ -1,6 +1,3 @@
-
-class HabitSerializer < ActiveRecord::Serializer
-
-  attributes :name, :frequency, :count, :type
-
+class HabitSerializer < ActiveModel::Serializer
+  attributes :id, :name, :frequency, :good_or_bad, :count
 end
